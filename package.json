@@ -1,14 +1,12 @@
 {
-  "name": "@gowthams316/hello-world-npm",
-  "version": "1.0.2",
-  "description": "A simple npm package to demonstrate GitHub Package Registry",
+  "name": "app-sample",
+  "version": "0.2.0",
+  "description": "A sample Node.js app using Express 4",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gowthams316/helloworld-test"
-  },
-  "author": "gowtham"
+  "dependencies": {
+    "@gowthams316/hello-world-npm": "1.0.2"
+  }
 }
